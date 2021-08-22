@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100vh;
+    background-image:  url(images/geert-pieters-AfgJpWQH4lw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div{
+    /* border: solid 5px white; */
+    border-radius: 10px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    box-shadow: 2px 2px 20px #919191;
+    background-color: rgba(0,0,0,0.7);
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.text{
+    text-align: left;
+    margin-left: 100px;
+    color: #fff;
+}
+
+#weight, #height{
+    color:#fff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    border: 1px solid #fff ;
+    padding: 6px 10px;
+    width: 285px;
+    background-color: transparent;
+    border-radius: 2px;
+    outline: none;
+}
+
+#result{
+    color: #fff;
+}
+
+#btn{
+    font-size: inherit;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #828588;
+    width: 150px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    box-shadow: 1px 1px 10px #5fb64d;
+}
+
+
+#info{
+    color: #fff;
+    font-size: 15px;
+}
